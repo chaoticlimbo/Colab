@@ -1,6 +1,6 @@
 const config = {
   WebToken: 'sub',//此处修改登录密码token
-  FileName: 'Colab',MainData: '',urls: [],subconverter: "SUBAPI.fxxk.dedyn.io",subconfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_MultiCountry.ini", subProtocol: 'https',
+  FileName: 'Colab',MainData: '',urls: [],subconverter: "SUBAPI.fxxk.dedyn.io",subconfig: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/config/ACL4SSR_Mini_NoAuto.ini", subProtocol: 'https',
 };
 export default {
   async fetch(request, env) {
